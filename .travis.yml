@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3"
+
+matrix:
+  fast_finish: true
+
+install:
+  - pip install tox "virtualenv<14"
+
+script:
+    - tox -e yapf -- formsend tests -r --diff
+    - tox -e mypy -- formsend
+    - tox -e test

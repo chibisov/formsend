@@ -1,0 +1,9 @@
+.vscode
+.tox
+*.pyc
+.cache
+.pytest_cache
+.mypy_cache
+*.pyc
+__pycache__
+*.egg-info

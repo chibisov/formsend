@@ -1,0 +1,6 @@
+Flask==1.0.2
+marshmallow==3.0.0b18
+Flask-Mail==0.9.1
+Flask-Cors==3.0.6
+environs==4.0.0
+gunicorn==19.9.0
