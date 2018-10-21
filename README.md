@@ -1,5 +1,7 @@
 Send html forms to email with ease. It's convenient for static sites without any backend.
 
+[![Build Status](https://travis-ci.org/chibisov/formsend.svg?branch=master)](https://travis-ci.org/chibisov/formsend)
+
 ## Usage
 
 HTML form:
