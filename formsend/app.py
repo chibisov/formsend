@@ -74,7 +74,7 @@ def ordered_storage(f):
     return wrapper
 
 
-# @cross_origin(allow_headers=["Accept", "Content-Type"])
+@cross_origin(allow_headers=["Accept", "Content-Type"])
 @ordered_storage
 def send():
     request_schema = SendRequestSchema()
